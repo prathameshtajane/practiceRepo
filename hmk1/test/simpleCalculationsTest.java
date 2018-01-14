@@ -18,8 +18,13 @@ public class simpleCalculationsTest {
     }
 
     @Test
-    public void subtractionOperationTest(){
+    public void subtractionOperationLargeSmallTest(){
         assertEquals(3,simpleOperations.subtractionOperation(5,2));
+    }
+
+    @Test
+    public void subtractionOperationSmallLargeTest(){
+        assertEquals(3,simpleOperations.subtractionOperation(2,5));
     }
 
     @Test
