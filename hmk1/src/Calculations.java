@@ -27,10 +27,10 @@ public class Calculations implements simpleCalculations{
      */
     @Override
     public int subtractionOperation(int x, int y) {
-        if(x >= y) {
-            return x - y;
+        if(x<y){
+            throw new IllegalStateException();
         }else{
-            return y - x;
+            return x-y;
         }
     }
 
