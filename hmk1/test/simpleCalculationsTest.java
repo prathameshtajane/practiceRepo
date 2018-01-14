@@ -18,17 +18,12 @@ public class simpleCalculationsTest {
     }
 
     @Test
-    public void subtractionOperationLargeSmallTest(){
+    public void subtractionOperationTest(){
         assertEquals(3,simpleOperations.subtractionOperation(5,2));
     }
 
     @Test(expected = IllegalStateException.class)
     public void subtractionOperationExceptionTest(){
-        assertEquals(3,simpleOperations.subtractionOperation(2,5));
-    }
-
-    @Test
-    public void subtractionOperationSmallLargeTest(){
         assertEquals(3,simpleOperations.subtractionOperation(2,5));
     }
 

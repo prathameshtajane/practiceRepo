@@ -20,18 +20,16 @@ public class Calculations implements simpleCalculations{
     }
 
     /**
-     * Subtracts smaller integer from the large integer
+     * Subtracts second integer variable from the first integer variable.
+     * This method does not throw exception when first integer varable is
+     * smaller that second integer variable
      * @param x first integer variable
      * @param y second integer variable
-     * @return  integer value denoting subtraction of smaller integer valie from the larger integer value
+     * @return  integer value denoting subtraction of first and second variables
      */
     @Override
     public int subtractionOperation(int x, int y) {
-        if(x<y){
-            throw new IllegalStateException();
-        }else{
-            return x-y;
-        }
+        return x-y;
     }
 
     /**
