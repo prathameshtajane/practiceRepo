@@ -29,7 +29,11 @@ public class Calculations implements simpleCalculations{
      */
     @Override
     public int subtractionOperation(int x, int y) {
-        return x-y;
+        if(x<y){
+            throw new IllegalStateException();
+        }else{
+            return x-y;
+        }
     }
 
     /**
