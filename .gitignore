@@ -22,7 +22,7 @@
 *.iml
 *.idea
 
-# Temp swp files 
+# Temp swp files
 *.swp
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
