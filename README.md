@@ -26,4 +26,4 @@ Please read CONTRIBUTING.md for details on our code of conduct, and the proces
 
 
 ## License
-This project is licensed under CS5500 course policies.[course policies](https://course.ccs.neu.edu/cs5500sp18/pol.html) for details.
+This project is licensed under CS5500 course policies.Refer [course policies](https://course.ccs.neu.edu/cs5500sp18/pol.html) for details.
